@@ -14,8 +14,8 @@ class HomeScreen extends StatelessWidget {
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const <Widget>[
-                Text('Clicks Counter'), 
-                Text('0')
+                Text('Clicks Counter', style: TextStyle(fontSize: 30) ), 
+                Text('0', style: TextStyle(fontSize: 30))
               ],
             ),
         )
